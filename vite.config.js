@@ -6,15 +6,3 @@ export default defineConfig({
   plugins: [react()],
   base: "https://sensaj.github.io/WeMovies/",
 });
-
-// export default defineConfig(({ command }) => {
-//   const config = {
-//     plugins: [react()],
-//     base: "/",
-//   };
-
-//   if (command !== "serve") {
-//     config.base = "/WeMovies/";
-//   }
-//   return config;
-// });
