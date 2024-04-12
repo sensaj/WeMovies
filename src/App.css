@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Inconsolata";
+  src: url("../assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: "TacOne";
+  src: url("../assets/fonts/TacOne-Regular.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "TiltNeon";
+  src: url("../assets/fonts/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf");
+  font-weight: bold;
+}
+:root {
+  --blue: #646cff;
+  --background: #0c0723;
+  --gray: #d1dbe3;
+  --white: #fffefe;
+  --red: #cc0000;
+  --green: #00b200;
+}
+
+body {
+  background-color: var(--background) !important;
+  font-family: "Inconsolata", sans-serif !important;
+}

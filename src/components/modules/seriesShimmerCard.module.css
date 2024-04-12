@@ -1,0 +1,57 @@
+.seriesShimmerCard {
+  border-radius: 5px;
+  height: 200px;
+  background-color: var(--gray);
+  box-shadow: 3px 5px 5px rgba(255, 255, 255, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.seriesPoster {
+  height: 180px;
+  background-size: cover;
+  background-color: var(--blue);
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 1px solid var(--blue);
+}
+
+.seriesDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: var(--blue);
+  opacity: 0.3;
+  height: 5px;
+  width: 100%;
+  text-align: center;
+  color: var(--background);
+  font-family: "TiltNeon", sans-serif;
+}
+
+.overview {
+  background-color: var(--blue);
+  opacity: 0.3;
+  height: 1px;
+  width: 100%;
+  margin: 1px 0;
+}
+
+.statIcon {
+  border: 1px solid var(--gray);
+  padding: 1px;
+  border-radius: 5px;
+  color: var(--green);
+  margin: 0 2px;
+}
+
+.stat {
+  background-color: var(--blue);
+  opacity: 0.3;
+  height: 1px;
+  width: 100%;
+}

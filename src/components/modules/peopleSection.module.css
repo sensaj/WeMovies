@@ -1,0 +1,9 @@
+.peopleSectionTitle {
+  font-family: "TiltNeon";
+  font-size: xx-large;
+  color: var(--green);
+  text-decoration: underline;
+  text-decoration-color: var(--red);
+  text-decoration-skip-ink: none;
+  border: 1px solid transparent;
+}

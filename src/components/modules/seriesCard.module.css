@@ -1,0 +1,55 @@
+.seriesCard {
+  border-radius: 5px;
+  height: 200px;
+  background-color: var(--white);
+  box-shadow: 3px 5px 5px rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.seriesTitle {
+  display: flex;
+}
+
+.seriesPoster {
+  height: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 1px solid var(--gray);
+}
+.seriesDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  color: var(--background);
+  font-family: "TiltNeon", sans-serif;
+}
+
+.overview {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.statIcon {
+  border: 1px solid var(--gray);
+  padding: 1px;
+  border-radius: 5px;
+  color: var(--green);
+  margin: 0 2px;
+}
+
+.stat {
+  font-family: "TiltNeon";
+  font-size: 0.7em;
+}

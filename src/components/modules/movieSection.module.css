@@ -1,0 +1,7 @@
+.movieSectionTitle {
+  font-family: "TiltNeon";
+  font-size: xx-large;
+  color: var(--green);
+  border-bottom: 3px solid var(--red);
+  border-radius: 2px;
+}

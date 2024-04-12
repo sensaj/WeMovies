@@ -1,0 +1,33 @@
+.profileAvatar {
+  width: 100%;
+  height: 12vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1199px) {
+  .profileAvatar {
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profileAvatar {
+    height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .profileAvatar {
+    height: 25vh;
+  }
+}
+
+/* @media only screen and (max-width: 368px) {
+  .profileAvatar {
+    height: 25vh;
+  }
+} */

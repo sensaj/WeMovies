@@ -1,0 +1,13 @@
+.movieShimmerCard {
+  background-color: var(--blue);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  height: 300px;
+  opacity: 0.3;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5),
+    -3px -3px 5px rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,27 @@
+.title {
+  font-family: "TiltNeon";
+  font-size: xx-large;
+  color: var(--green);
+}
+
+.footerItem {
+  list-style: none;
+}
+
+/* .footerItem li {
+  display: flex;
+  align-items: center; */
+/* } */
+
+.footerLink {
+  text-decoration: none;
+}
+
+.linkIcon {
+  color: var(--gray);
+  margin-left: 0 5px;
+}
+
+.linkInfo {
+  margin-left: 0 5px;
+}
