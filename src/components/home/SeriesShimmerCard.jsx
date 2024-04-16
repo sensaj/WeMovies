@@ -1,5 +1,5 @@
 import { LiaCalendar, LiaLanguageSolid } from "react-icons/lia";
-import styles from "./modules/seriesShimmerCard.module.css";
+import styles from "../modules/seriesShimmerCard.module.css";
 export default function SeriesShimmerCard() {
   return (
     <div className={`col-3 m-1 ${styles.seriesShimmerCard}`}>

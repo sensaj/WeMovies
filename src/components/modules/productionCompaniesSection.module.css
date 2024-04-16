@@ -1,0 +1,39 @@
+.title {
+  text-align: center;
+  color: var(--white);
+  font-family: "TiltNeon";
+  font-size: xx-large;
+}
+
+.logoContainer {
+  background-color: var(--gray);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.logoContainer:hover {
+  box-shadow: 3px 5px 5px rgba(0, 1000, 0, 0.5),
+    -3px -3px 5px rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.companyOrigin {
+  background: var(--background);
+  color: var(--green);
+  font-family: "TiltNeon";
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.companyShimmerContainer {
+  background-color: var(--gray);
+  height: 150px;
+  border-radius: 5px;
+}

@@ -1,5 +1,5 @@
-import { IMAGE_BASE_URL } from "../services/apis";
-import styles from "./modules/personCard.module.css";
+import { IMAGE_BASE_URL } from "../../services/apis";
+import styles from "../modules/personCard.module.css";
 
 export default function PersonCard({ person }) {
   const imgUrl = `${IMAGE_BASE_URL}/${person.profile_path}`;

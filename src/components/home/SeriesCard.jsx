@@ -1,6 +1,6 @@
 import { LiaCalendar, LiaLanguageSolid } from "react-icons/lia";
-import { IMAGE_BASE_URL } from "../services/apis";
-import styles from "./modules/seriesCard.module.css";
+import { IMAGE_BASE_URL } from "../../services/apis";
+import styles from "../modules/seriesCard.module.css";
 
 export default function SeriesCard({ series }) {
   const imgUrl = `${IMAGE_BASE_URL}/${series.poster_path}`;

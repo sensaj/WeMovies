@@ -1,0 +1,18 @@
+.genreContainer {
+  background-color: var(--blue);
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.genreContainer:hover {
+  box-shadow: 1px 3px 2px rgba(0, 1000, 0, 0.5),
+    -1px -1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.genreShimmerContainer {
+  background-color: var(--gray);
+  opacity: 0.5;
+  text-align: center;
+  border-radius: 30px;
+}

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import styles from "./modules/peopleSection.module.css";
-import { AUTHORIZATION, BASE_URL } from "../services/apis";
+import styles from "../modules/peopleSection.module.css";
+import { AUTHORIZATION, BASE_URL } from "../../services/apis";
 import PersonCard from "./PersonCard";
 import PersonShimmerCard from "./PeersonShimmerCard";
 export default function PeopleSection() {

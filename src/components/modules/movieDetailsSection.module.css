@@ -1,0 +1,24 @@
+.poster {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.title {
+  color: var(--white);
+  font-family: "TiltNeon";
+  font-size: xx-large;
+}
+
+.overview,
+.statIcon,
+.stat {
+  color: var(--white);
+  margin: 5px 0px;
+}
+
+.divider {
+  border: 1px solid var(--blue);
+}

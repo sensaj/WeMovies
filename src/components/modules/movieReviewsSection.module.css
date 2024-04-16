@@ -1,0 +1,41 @@
+.reviewContainer {
+  background-color: var(--background);
+  border-radius: 5px;
+  box-shadow: 3px 1px 5px var(--gray), -3px -1px 5px var(--blue);
+  transition: all 0.5s ease-in-out;
+}
+
+.reviewContainer:hover {
+  cursor: pointer;
+  box-shadow: 3px 5px 5px rgba(0, 1000, 0, 0.5),
+    -3px -3px 5px rgba(255, 255, 255, 0.5);
+}
+.title {
+  text-align: center;
+  color: var(--white);
+  font-family: "TiltNeon";
+  font-size: xx-large;
+}
+
+.avatarContainer {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue);
+  border-radius: 50%;
+}
+
+.authorName {
+  color: var(--white);
+  font-family: "TiltNeon";
+  font-size: large;
+}
+.content {
+  color: var(--white);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

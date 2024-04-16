@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Moviecard from "./MovieCard";
-import { AUTHORIZATION, BASE_URL } from "../services/apis";
+import { AUTHORIZATION, BASE_URL } from "../../services/apis";
 import MovieShimmerCard from "./MovieShimmerCard";
 
 export default function AllMoviesList() {

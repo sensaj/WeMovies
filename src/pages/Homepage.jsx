@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { AUTHORIZATION, BASE_URL } from "../services/apis";
-import MovieSection from "../components/MovieSection";
-import PeopleSection from "../components/PeopleSection";
-import TVSeriesSection from "../components/TVSeriesSection";
-import TrendingMovies from "../components/TrendingMovies";
+import MovieSection from "../components/home/MovieSection";
+import PeopleSection from "../components/home/PeopleSection";
+import TVSeriesSection from "../components/home/TVSeriesSection";
+import TrendingMovies from "../components/home/TrendingMovies";
 import MainLayout from "../layout/MainLayout";
 import AppLoader from "../components/AppLoader";
 

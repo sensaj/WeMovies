@@ -1,5 +1,5 @@
 import AllMoviesList from "./AllMoviesList";
-import styles from "./modules/movieSection.module.css";
+import styles from "../modules/movieSection.module.css";
 
 export default function MovieSection() {
   return (

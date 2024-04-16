@@ -1,10 +1,10 @@
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import styles from "./modules/tvSeriesSection.module.css";
+import styles from "../modules/tvSeriesSection.module.css";
 import { useEffect, useState } from "react";
 import SeriesCard from "./SeriesCard";
-import { AUTHORIZATION, BASE_URL } from "../services/apis";
+import { AUTHORIZATION, BASE_URL } from "../../services/apis";
 import SeriesShimmerCard from "./SeriesShimmerCard";
 
 export default function TVSeriesSection() {
